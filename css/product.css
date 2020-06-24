@@ -1,0 +1,255 @@
+/*产品详情页*/
+.productWrap{
+	width:1000px;
+	height: 420px;
+	margin: 20px auto;
+	position: relative;
+}
+/*左边容器*/
+.productLeft{
+	width: 350px;
+	height: 420px;
+}
+/*大图*/
+.productImg{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	z-index: 5;
+}
+.productImg i.icon{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background:url(../img/productIcon.jpg) no-repeat;
+	z-index: 6;
+}
+/*小图列表*/
+.goodsList{
+	width: 350px;
+	height: 50px;
+	margin-top: 20px;
+}
+.goodsList label,.goodsList span{
+	width: 22px;
+	height: 37px;
+	margin-top: 7px;
+	cursor: pointer;
+}
+.goodsList ul{
+	width: 280px;
+	height: 50px;
+	margin-left:13px;
+	margin-top: 0px;
+	padding-left: 0px;
+	display: inline-block;
+}
+.goodsList ul li{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 7px;
+}
+.goodsList ul li:hover{
+	border: 1px solid #E1251A;
+}
+.goodsList label{
+	float: left;
+	background: url(../img/goodlistleft.png) no-repeat;
+	margin-left: 0;
+}
+.goodsList span{
+	float: right;
+	background: url(../img/goodlistright.png) no-repeat;
+	margin-right: 0;
+}
+.goodsList ul li.noMargin{
+	margin-right: 0;
+}
+/*右边容器*/
+.productRight{
+	width: 620px;
+	height: 420px;
+	margin-left: 20px;
+	position: relative;
+}
+/*商品标题*/
+.productRight .title{
+	width: 620px;
+	height: 50px;
+	margin-top: 15px;
+}
+.productRight .title span{
+	font-size: 12px;
+	color: #fff;
+	background: #E1251A;
+}
+h4{
+	display: inline;
+	font-weight: bold;
+	color: #424141;
+	font-family: "微软雅黑";
+}
+.productRight .title .blue{
+	text-decoration: underline;
+}
+/*价格*/
+.productRight .price{
+	width: 620px;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+.price ul{
+	padding-left: 5px;
+}
+.price ul li{
+	display: inline-block;
+}
+/*配送地址*/
+.address{
+	width: 620px;
+	position: absolute;
+	top: 135px;
+	left: 5px;
+}
+.address .addressTitle{
+	height: 24px;
+	width: 160px;
+	border:1px solid #ddd;
+	color: #666;
+	padding:0 3px;
+	line-height: 24px;
+	background: #fff;
+}
+.address .addressTitle i{
+	width: 15px;
+	height: 12px;
+	margin: 5px 2px;
+	background:url(../img/addressBtn.png) no-repeat;
+}
+.addressList{
+	width: 396px;
+	padding: 10px 0;
+	clear: both;
+    border:1px solid #ddd;
+    background: #fff;
+    margin-top: -1px;
+    margin-left: 7px;
+    position:relative;
+}
+.addressTableBtn{
+	width: 392px;
+	height: 24px;
+	clear: both;
+	border-bottom: 2px solid #E1251A ;
+	margin-left: 5px;
+}
+.addressTableBtn ul{
+	padding-left: 0px;
+}
+.addressTableBtn li{
+	height: 24px;
+	padding:0 11px;
+	float: left;
+	line-height: 24px;
+	color: #005AA0;
+	margin-right: 15px;
+	border:1px solid #ccc;
+	cursor: pointer;
+	margin-bottom: -2px;
+	background: #fff;
+}
+.addressTableBtn li.redli{
+	border:2px solid #E1251A;
+	border-bottom:0;
+}
+.address .addressName{
+	width: 100%;
+	margin-top: 14px;
+}
+.addressName ul{
+	padding-left: 12px;
+}
+.addressName li{
+	width: 70ppx;
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	font-size: 14px;
+	float: left;
+	margin-right: 20px;
+	color: #005AA0;
+	cursor: pointer;
+	padding-left: 5px;
+}
+.addressName li:hover{
+	color: #E1251A ;
+}
+/*重量*/
+ .weight{
+	width: 620px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 285px;
+	left: 387px;
+}
+.weight ul{
+	padding-left: 5px;
+}
+.weight ul li{
+	display: inline-block;
+	margin-right: 8px;
+}
+/*加购物车*/
+ .addShop{
+	width: 620px;
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+	left: 390px;
+}
+.goodNum{
+	width: 62px;
+	height: 49px;
+	float: left;
+	border:1px solid #ddd;
+	position: relative;
+}
+.addShop .num{
+	width: 40px;
+	height: 44px;
+	text-align: center;
+}
+.add,.subtract{
+	width: 18px;
+	border-right: 1px solid #ababab;
+	border-bottom: 1px solid #ababab;
+}
+.addShop .add{
+	position: absolute;
+    top: 0px;
+    height: 24px;
+    border-top: 1px solid #ababab;
+}
+.addShop .subtract{
+	position: absolute;
+    bottom: 0px;
+    height: 25px;
+}
+.goodNum input{
+	display: inline-block;
+}
+.addShop .shopText{
+	color:#fff ;
+	width: 140px;
+	height: 49px;
+	background: #E1251A;
+	margin-left: 80px;
+	text-align: center;
+    line-height: 49px;
+}
+

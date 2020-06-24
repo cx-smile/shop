@@ -1,0 +1,180 @@
+/*title*/
+.carTitle{
+	width: 1172px;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+}
+.carTitle label{
+	font-size: 22px;
+	font-weight: bold;
+	border-bottom:3px solid #E1251A;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+}
+.carTitle a:hover{
+	color: #E1251A;
+}
+/*table header*/
+.carHead{
+	width: 1164px;
+	height: 51px;
+	margin: 0 auto;
+	background: #F3F3F3;
+	border:1px solid #A69E9E;
+	padding: 0 3px;
+	line-height:51px;
+	font-size: 15px;
+}
+.carHead ul{
+	height:51px;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+.carHead li{float: left;}
+.carHead li.w-1{width: 148px;}
+.carHead li.w-2{width: 587px;}
+.carHead li.w-3{width: 113px;}
+.carHead li.w-4{width: 153px;}
+.carHead li.w-5{width: 83px;}
+/*分割线*/
+.line{
+	width: 1172px;
+	height: 1px;
+	background: #ddd;
+	margin: 10px 0;
+}
+/*购物车列表*/
+.carContext{
+	width: 1172px;
+	margin: 0 auto;
+	position: relative;
+}
+.carList{
+	width: 1172px;
+	height: 120px;
+	background: #FFF4E8;
+}
+.carList ul{
+	padding-left: 0px;
+}
+.carList li{
+	float: left;
+}
+.carList li.w-1{width: 15px;margin: 23px 20px 0 5px;}
+.carList li.w-2{
+	width: 85px;
+	height: 85px;
+	margin: 18px 20px 0 0;
+	background: #fff;
+	overflow: hidden;
+	border:1px solid #ddd;
+	text-align: center;
+}
+.carList li.w-2 img{
+	width: 85px;
+}
+.carList li.w-3{
+	width: 500px;
+	margin: 23px 80px 0 0;
+}
+.carList li.w-4{
+	width: 90px;
+	margin: 23px 0 0 0;
+}
+.carList li.w-5{
+	width: 100px;
+	margin:20px 75px 0 0;
+}
+.goodNum{
+	width: 94px;
+	height: 24px;
+	border:1px solid #ddd;
+	margin: 0 auto;
+	overflow:hidden;
+	position: relative;
+}
+input.a,input.c{
+	width: 20px;
+	height: 24px;
+	display: block;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	border:0;
+}
+input.a{
+	border-right:1px solid #ddd;
+	position: absolute;
+	left: 0;
+}
+input.c{
+	border-left:1px solid #ddd;
+	position: absolute;
+	right: 0;
+}
+input.b{
+	width: 53px;
+	height: 24px;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	text-align:center;
+}
+.carList li.w-6{
+	width: 90px;
+	margin: 23px 5px 0 0;
+}
+.carList li.w-7{
+	margin-top:23px;
+	cursor: pointer;
+}
+/*carFoot*/
+.carFoot{
+	width: 1172px;
+	height: 60px;
+	background: #fff;
+	border:1px solid #ddd;
+	margin: 0 auto;
+	position: relative;
+}
+.footCheak input.check,
+.footCheak label{
+	margin: 13px 0 0 11px;
+	float: left;
+}
+.selected{
+	position: absolute;
+	top: 13px;
+	right: 450px;
+}
+.selected i{
+	padding: 0 4px;
+	font-weight: bold;
+	color: #f00;
+}
+.total{
+	position: absolute;
+	top: 13px;
+	right: 200px;
+}
+.total i{
+	padding: 0 4px;
+	font-weight: bold;
+	color: #f00;
+}
+
+.pay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 115px;
+	height: 60px;
+	color: #fff;
+	background:#E1251A;
+	font-weight: bold;
+	line-height: 60px;
+	text-align: center;
+}
+

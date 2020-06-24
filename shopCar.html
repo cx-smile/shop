@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/shopCar.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/comment.css" />
+		<script type="text/javascript" src="js/shopCar.js" ></script>
+	</head>
+	<body>
+		<div class="carTitle">
+			<label class="red">全部商品</label>
+			<a href="index.html" class="f14 fr mT10 mR10">京东首页</a>
+		</div>
+		<div class="carHead">
+			<ul>
+				<li class="w-1"><input type="checkbox"  class="checkAll check"/>全选</li>
+				<li class="w-2">商品</li>
+				<li class="w-3">单价</li>
+				<li class="w-4">数量</li>
+				<li class="w-5">小计</li>
+				<li>操作</li>
+			</ul>
+		</div>
+		<div class="carContext">
+			<!--分割线-->
+			<div class="line"></div>
+			<!--购物车列表-->
+			<div class="carList">
+				<ul>
+	                <li class="w-1"><input type="checkbox" class="check-one check"></li>
+	                <a href="product.html">
+	                <li class="w-2"><img src="img/productlist1.jpg"/></li>
+	                <li class="w-3">良品铺子 脆冬枣量贩装情人节礼物零食大礼包 无核脆枣 红枣干 蜜饯果干休闲零食400g</li>
+	                </a>
+	                <li class="w-4">39.90</li>
+	                <li class="w-5">
+	                	<div class="goodNum">
+	                		<input class="a" type="button" value="-" />
+	                		<input class="b"  type="text" value="1"/>
+	                		<input class="c" type="button" value="+" />
+	                	</div>
+	                </li>
+	                <li class="w-6">39.90</li>
+	                <li class="w-7">删除</li>
+				</ul>
+			</div>
+	        <!--分割线-->
+			<div class="line"></div>
+			<!--购物车列表-->
+			<div class="carList">
+				<ul>
+	                <li class="w-1"><input type="checkbox" class="check-one check"></li>
+	                <li class="w-2"><img src="img/钢琴.jpg"/></li>
+	                <li class="w-3">卡西欧（CASIO）电钢琴 CDP-S100BK 88键重锤电子钢琴便携双电时尚家庭款电子琴（琴头+琴架+琴凳耳机礼包）</li>
+	                <li class="w-4">2409.00</li>
+	                <li class="w-5">
+	                	<div class="goodNum">
+	                		<input class="a" type="button" value="-" />
+	                		<input class="b"  type="text" value="1"/>
+	                		<input class="c" type="button" value="+" />
+	                	</div>
+	                </li>
+	                <li class="w-6">2409.00</li>
+	                <li class="w-7">删除</li>
+				</ul>
+			</div>
+			<!--分割线-->
+			<div class="line"></div>
+			<!--购物车列表-->
+			<div class="carList">
+				<ul>
+	                <li class="w-1"><input type="checkbox" class="check-one check"></li>
+	                <li class="w-2"><img src="img/火龙果.jpg"/></li>
+	                <li class="w-3">苏洪鲜食 越南红心火龙果 新鲜水果 红肉 京东生鲜 精品果 3个 单果约350g</li>
+	                <li class="w-4">19.90</li>
+	                <li class="w-5">
+	                	<div class="goodNum">
+	                		<input class="a" type="button" value="-" />
+	                		<input class="b"  type="text" value="1"/>
+	                		<input class="c" type="button" value="+" />
+	                	</div>
+	                </li>
+	                <li class="w-6">19.90</li>
+	                <li class="w-7">删除</li>
+				</ul>
+			</div>
+		</div>
+	    <!-car foot-->
+	    <div class="carFoot">
+	    	<div class="footCheak fl">
+	    		<input class="checkAll check" type="checkbox" />
+	    		<label>全选</label>
+	    	</div>
+	    	<div class="selected">已选择<i id="selectedTotal">0</i>件商品</div>
+	    	<div class="total">总价：¥<i id="priceTotal">0.00</i></div>
+	    	<div class="pay f26 cp">去结算</div>
+	    </div>
+	</body>
+	<!--<script>
+		export default{
+			name:'cart',
+			data(){
+				return {
+					cartList:[]
+				}
+			},
+		}
+	</script>
+    -->
+</html>
